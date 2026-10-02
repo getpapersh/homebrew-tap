@@ -3,8 +3,11 @@
 Homebrew casks for [Paper](https://getpaper.sh).
 
 ```sh
-brew install --cask getpapersh/tap/papermac
+brew tap getpapersh/tap
+brew install --cask papermac
 ```
+
+Homebrew 7 asks you to tap a third-party tap explicitly before installing from it, so the `brew tap` line is needed once.
 
 PaperMac updates itself with Sparkle (`auto_updates true`), so `brew upgrade` leaves it alone unless you pass `--greedy`.
 
