@@ -14,3 +14,7 @@ PaperMac updates itself with Sparkle (`auto_updates true`), so `brew upgrade` le
 If you installed PaperMac with `curl -fsSL https://getpaper.sh/install | sh`, don't also install it with Homebrew; Homebrew refuses an existing app unless you pass `--adopt`.
 
 Uninstall: `brew uninstall --zap --cask papermac` (`--zap` also removes PaperMac's settings).
+
+## License
+
+GPL-3.0-or-later. See [LICENSE](LICENSE).
