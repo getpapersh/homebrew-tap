@@ -1,6 +1,6 @@
 cask "papermac" do
-  version "27.0.0-alpha.5"
-  sha256 "a779e9625f342d8eee94ef5b41e16dbc958d7b683c6e68b5b20b9ca096dd2832"
+  version "27.0.0-beta.1"
+  sha256 "60c5bc4899e255956ed22d10f464978e4258bc89183cf665ee3c33b1532e15ea"
 
   url "https://dl.getpaper.sh/papermac/PaperMac-#{version}.dmg"
   name "PaperMac"
@@ -8,7 +8,7 @@ cask "papermac" do
   homepage "https://getpaper.sh/"
 
   livecheck do
-    url "https://dl.getpaper.sh/papermac/appcast-alpha.xml"
+    url "https://dl.getpaper.sh/papermac/appcast-27.xml"
     strategy :sparkle, &:short_version
   end
 
