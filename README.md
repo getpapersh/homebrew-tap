@@ -9,6 +9,8 @@ brew install --cask papermac
 
 Homebrew 7 asks you to tap a third-party tap explicitly before installing from it, so the `brew tap` line is needed once.
 
+The cask links the `papermac` command-line tool into `$(brew --prefix)/bin`, so `papermac` runs by name after install.
+
 PaperMac updates itself with Sparkle (`auto_updates true`), so `brew upgrade` leaves it alone unless you pass `--greedy`.
 
 If you installed PaperMac with `curl -fsSL https://getpaper.sh/install | sh`, don't also install it with Homebrew; Homebrew refuses an existing app unless you pass `--adopt`.
