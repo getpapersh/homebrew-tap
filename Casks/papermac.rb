@@ -16,6 +16,7 @@ cask "papermac" do
   depends_on macos: :golden_gate
 
   app "PaperMac.app"
+  binary "#{appdir}/PaperMac.app/Contents/Helpers/papermac"
 
   uninstall quit: "dev.jsonmartin.papermac"
 
