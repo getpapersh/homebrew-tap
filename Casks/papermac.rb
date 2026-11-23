@@ -1,6 +1,6 @@
 cask "papermac" do
-  version "27.0.0-beta.10"
-  sha256 "0da5dd51648e5521e3afb94f812097e7995b172bf6fe9ddaacd0f1e1c210d565"
+  version "27.0.0-beta.11"
+  sha256 "b3e20ea815e672e6aa47a658fc9c5775c0da88993a435a6a83314fb061f67583"
 
   url "https://dl.getpaper.sh/papermac/PaperMac-#{version}.dmg"
   name "PaperMac"
