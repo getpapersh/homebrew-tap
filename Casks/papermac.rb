@@ -2,7 +2,7 @@ cask "papermac" do
   version "27.0.0-beta.11"
   sha256 "b3e20ea815e672e6aa47a658fc9c5775c0da88993a435a6a83314fb061f67583"
 
-  url "https://dl.getpaper.sh/papermac/PaperMac-#{version}.dmg"
+  url "https://getpaper.sh/mac/get/PaperMac-#{version}.dmg?ref=brew"
   name "PaperMac"
   desc "Scrolling tiling window manager"
   homepage "https://getpaper.sh/"
